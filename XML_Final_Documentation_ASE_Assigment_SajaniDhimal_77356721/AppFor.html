@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/ContentsMerged.css" />
+    <title>Class GenericClass</title>
+</head>
+<body><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Class AppFor</div>
+    <div id="Contents" />
+
+    
+ Represents a custom implementation of the <a href="" >For</a> class for creating and executing a for loop.
+ Allows for a loop with customisable start, end, and step values, along with a block of code to execute in each iteration.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public class AppFor : For</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Constructor AppFor</div>
+    <div id="Contents" />
+
+    
+ Initialises a new instance of the <a href="" >AppFor</a> class with specified loop parameters.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public AppFor(int from, int to, int step, Action loopBlock)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>from</div><div class='ParameterCommentContainer'>
+The starting value of the loop.
+</div>
+<div class='CommentParameterName'>to</div><div class='ParameterCommentContainer'>
+The ending value of the loop.
+</div>
+<div class='CommentParameterName'>step</div><div class='ParameterCommentContainer'>
+The step value (increment or decrement) for each iteration.
+</div>
+<div class='CommentParameterName'>loopBlock</div><div class='ParameterCommentContainer'>
+The block of code to execute in each iteration of the loop.
+</div>
+
+    
+    
+    
+    
+    
+<div id='SectionHeader1' class='SectionHeader'>
+   <img id='SectionExpanderImg1' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' /> 
+   <span class='SectionHeader'>
+       <span class='ArrowCursor'>
+       Remarks
+       </span>
+   </span>
+</div>
+<div id='SectionContainerDiv1' class='SectionContainer'>
+
+ The loop will iterate from the <span class="Code">from</span> value to the <span class="Code">to</span> value,
+ and it will increment or decrement based on the <span class="Code">step</span> value. The <span class="Code">loopBlock</span>
+ will be executed in each iteration.
+ 
+</div>
+</div>
+
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Execute</div>
+    <div id="Contents" />
+
+    
+ Executes the for loop logic and runs the <a href="" >loopBlock</a> on each iteration.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public override void Execute()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+<div id='SectionHeader1' class='SectionHeader'>
+   <img id='SectionExpanderImg1' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' /> 
+   <span class='SectionHeader'>
+       <span class='ArrowCursor'>
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id='SectionContainerDiv1' class='SectionContainer'>
+<table class='MembersTable'>
+<col width='25%' />
+<col width='75%' />
+<tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class='PseudoLink'>Exception</span></td>
+<td>Thrown if the loop exceeds the maximum allowed execution cycles,
+ or if the step value is zero or results in an invalid loop direction (infinite loop).</td>
+</tr>
+</table
+</div>
+</div>
+
+    
+<div id='SectionHeader1' class='SectionHeader'>
+   <img id='SectionExpanderImg1' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.1.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' /> 
+   <span class='SectionHeader'>
+       <span class='ArrowCursor'>
+       Remarks
+       </span>
+   </span>
+</div>
+<div id='SectionContainerDiv1' class='SectionContainer'>
+
+ The loop will iterate from <span class="Code">from</span> to <span class="Code">to</span> with the specified step value.
+ A check is performed to ensure the loop does not exceed the maximum allowed execution cycles to avoid infinite loops.
+ 
+</div>
+</div>
+
+    
+
+</div>
+</p>
+</body>
+</html>
